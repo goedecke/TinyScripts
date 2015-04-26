@@ -1,0 +1,1 @@
+db.people.find({tags:{$size:3}}) 

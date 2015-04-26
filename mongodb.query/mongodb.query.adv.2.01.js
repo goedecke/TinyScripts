@@ -1,0 +1,1 @@
+db.people.find({tags:"laborum"},{name:1,tags:1});

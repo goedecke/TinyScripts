@@ -1,0 +1,14 @@
+db.people.find( 
+  {
+    $or:
+     [
+       {age:{$gt:30}}, 
+       {
+          $and:[
+                {age:{$gt:50}},
+                {gender:"female"}
+              ]
+        } 
+      ] 
+  }
+);

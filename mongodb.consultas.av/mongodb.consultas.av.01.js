@@ -1,0 +1,9 @@
+db.people.find(
+  {
+    age:{$gt:30}
+  },
+  {
+    name:1,
+    age:1
+  }
+);

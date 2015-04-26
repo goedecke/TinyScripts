@@ -1,0 +1,9 @@
+db.people.find( 
+ {
+  $and:
+   [
+     {age:{$gt:30}},
+     {age:{$lt:40}}
+   ]
+  }, 
+  {name:1,gender:1,age:1});

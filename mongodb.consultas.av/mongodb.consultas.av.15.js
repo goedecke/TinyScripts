@@ -1,0 +1,11 @@
+db.people.find(
+  {
+    $nor:
+      [ 
+        {age:{$gt:30}},
+        {age:{$exists:false}},
+        {isActive:true},
+        {isActive:{$exists:false}}
+      ]
+  }
+);

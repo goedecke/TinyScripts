@@ -1,0 +1,10 @@
+db.people.find(
+  {
+    company:{$type:2}
+  },
+  {
+    name:1,
+    age:1,
+    company:1
+  }
+);

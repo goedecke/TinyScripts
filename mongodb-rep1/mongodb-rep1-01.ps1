@@ -1,0 +1,1 @@
+mongod --port 27666 --dbpath data --replSet rep1

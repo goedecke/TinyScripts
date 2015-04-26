@@ -1,0 +1,9 @@
+db.people.aggregate(
+{
+    $group:
+    {
+      _id:"$gender",
+      totalAge:{$sum:"$age"},
+      totalPeople:{$sum:1}
+    }
+});

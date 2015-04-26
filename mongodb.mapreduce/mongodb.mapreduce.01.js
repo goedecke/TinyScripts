@@ -1,0 +1,12 @@
+{
+ _id:1,
+ name:"Pedro",
+ age:23,
+ savedPoints:[200,10,30]
+},
+{
+ _id:2,
+ name:"Mariano",
+ age:48,
+ savedPoints:[50,85]
+}
